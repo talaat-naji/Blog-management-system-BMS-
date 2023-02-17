@@ -1,0 +1,197 @@
+.cntb {
+    background-color: cornsilk
+}
+
+.ed {
+    background-color: rgb(211, 207, 207);
+    color: rgb(62, 1, 80);
+    border-radius: 15px;
+    
+}
+.ed::placeholder{ color: rgb(62, 1, 80);}
+
+.userName {
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    background-image: linear-gradient(rgb(158, 160, 165), rgb(201, 201, 204), rgb(158, 160, 165));
+
+    width: 450px;
+
+}
+
+.Comment {
+    font-family: 'Cambria';
+    background-color: rgb(206, 206, 211);
+    text-align: center;
+    width: 450px;
+}
+
+.like {
+    background-color: rgb(177, 233, 219);
+    color: blueviolet;
+    font-weight: bold;
+}
+
+
+.dropbtn {
+    /* background-color: #a1a5a1; */
+    color: black;
+    /* margin-left: 200px; */
+    font-size: 16px;
+    border: none;
+    height: 30px;
+    width: 30px;
+}
+.dropdownNot {
+    position: relative;
+    display: inline-table;
+    padding-left:15px ;
+    /* width: 15%; */
+}
+.dropdown {
+    position: relative;
+    display: inline-table;
+    padding-left:310px ;
+    /* width: 15%; */
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    /* min-width: 150px; */
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content button {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content button {
+    width: 100%;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content button:hover {
+    width: 100%;
+    background-color: rgba(210, 180, 140, 0.808);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdownNot:hover .dropdown-content {
+    display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #44080d;
+    color: white;
+}
+.dropdownNot:hover .dropbtn {
+    background-color: #44080d;
+    color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.border {
+    padding: 55px;
+    border-width: 0px;
+    padding-top: 5px;
+    border-color: rgb(112, 109, 109);
+    box-shadow: 4px 4px 5px grey;
+}
+
+.hr {
+    width: 100%;
+    display: block;
+    color: black;
+    border: rgb(117, 115, 115);
+    border-bottom-width: 1;
+}
+
+.wid {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.imgg {
+    max-height: 400px;
+}
+
+.col-sm {
+    max-height: fit-content;
+}
+
+.userName1 {
+    
+    font-family: 'Times New Roman';
+    font-size: large;
+    font-weight: bolder;
+}
+.date{color: rgb(117, 118, 121);
+    font-size: x-small;
+    display: inline-table;
+    }
+
+.textareaa{height:100px;}
+.wid1{padding-top: 12px;
+        padding-bottom: 10px;
+        width: 60%;
+        margin-left: 20%;}
+.notify{
+    width: 15px;
+    height: 15px;
+    font-size: small;
+    text-align: center;
+    line-height: normal;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 40%;
+}
+.read{background-color: white;}
+.unread{background-color: rgb(172, 201, 255);}
+.scroll { 
+    margin:4px, 4px; 
+    margin-bottom: 4px;
+    padding:4px; 
+    background-color: rgb(1, 173, 253); 
+    width: 500px; 
+    height: 150px; 
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    text-align:justify; 
+} 
+.profile{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline;
+}
+.prof{
+    padding: 0px;
+    margin: 0px;
+}
+.navbtn1{padding-left: 40px;}
+
+.followBtn{
+    width:100%;
+   /* padding:10px; */
+    background-image: linear-gradient(rgb(7, 56, 181), rgb(80, 124, 237), rgb(7, 56, 181));
+    color:white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
